@@ -5,6 +5,10 @@ import org.design.solid.items.LibraryItem;
 class Library {
     private LibraryItem[] items;
 
+    /**
+     * Liskov's substitution principle
+     * @param items
+     */
     public Library(LibraryItem[] items) {
         this.items = items;
     }

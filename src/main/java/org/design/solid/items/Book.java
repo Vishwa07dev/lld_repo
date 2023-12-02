@@ -2,6 +2,10 @@ package org.design.solid.items;
 
 import org.design.solid.LateFeeCalculatable;
 
+
+/**
+ * Open Close principle
+ */
 public class Book implements LibraryItem  {
     private String title;
     private String uniqueId;
