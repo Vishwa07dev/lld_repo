@@ -1,5 +1,9 @@
 package org.design.creationalDP.dal;
 
+
+/**
+ * Singleton design pattern
+ */
 public class UserDatabase {
     private static UserDatabase instance;
     // Other attributes and methods for managing user data

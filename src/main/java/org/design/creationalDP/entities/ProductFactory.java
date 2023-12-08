@@ -1,5 +1,9 @@
 package org.design.creationalDP.entities;
 
+
+/**
+ * Factory design pattern
+ */
 public class ProductFactory {
     public Product createProduct(String category) {
         switch (category.toLowerCase()) {
